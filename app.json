@@ -1,6 +1,6 @@
 {
-    "name": "Media Search bot",
-    "description": "When you going to send file on telegram channel/group this bot will save that in database, So you can search that easily in inline mode",
+    "name": "MediaSender",
+    "description": "Send Media Automatically",
     "keywords": [
       "telegram",
       "best",
@@ -12,17 +12,13 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Mahesh0253/Media-Search-bot",
-    "repository": "https://github.com/Mahesh0253/Media-Search-bot",
+    "website": "https://github.com/insane-man220/NewMessageSender",
+    "repository": "https://github.com/insane-man220/NewMessageSender",
     "env": {
-        "BOT_TOKEN": {
-            "description": "Your bot token.",
-            "value": ""
-        },
         "USERBOT_STRING_SESSION": {
             "description": "User bot string session.",
             "value": "",
-            "required": false
+            "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
