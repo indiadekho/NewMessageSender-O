@@ -1,0 +1,52 @@
+{
+    "name": "Media Search bot",
+    "description": "When you going to send file on telegram channel/group this bot will save that in database, So you can search that easily in inline mode",
+    "keywords": [
+      "telegram",
+      "best",
+      "indian",
+      "pyrogram",
+      "media",
+      "search",
+      "channel",
+      "index",
+      "inline"
+    ],
+    "website": "https://github.com/Mahesh0253/Media-Search-bot",
+    "repository": "https://github.com/Mahesh0253/Media-Search-bot",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token.",
+            "value": ""
+        },
+        "USERBOT_STRING_SESSION": {
+            "description": "User bot string session.",
+            "value": "",
+            "required": false
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        },
+        "CHANNEL_ID": {
+            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
