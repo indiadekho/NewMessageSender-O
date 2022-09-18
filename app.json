@@ -12,8 +12,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/insane-man220/NewMessageSender",
-    "repository": "https://github.com/insane-man220/NewMessageSender",
+    "website": "https://github.com/indiadekho/NewMessageSender-O/tree/onlymedia",
+    "repository": "https://github.com/indiadekho/NewMessageSender-O/tree/onlymedia",
     "env": {
         "USERBOT_STRING_SESSION": {
             "description": "User bot string session.",
