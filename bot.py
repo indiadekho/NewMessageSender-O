@@ -14,4 +14,4 @@ async def copy(bot, message):
     await message.copy(CHANNEL)
 
 
-bot.run()
+userbot.run()
