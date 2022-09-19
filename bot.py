@@ -9,7 +9,7 @@ CHANNEL = int(env['CHANNEL_ID'])
 bot = Client(USERBOT_STRING_SESSION, API_ID, API_HASH)
 
 
-@bot.on_message(filters.incoming & filters.group & filters.media & filters.document & filters.video ~filters.chat(CHANNEL))
+@bot.on_message(filters.incoming & filters.media & filters.document & filters.video ~filters.chat(GROUP))
 async def copy(bot, message):
     await message.copy(CHANNEL)
 
